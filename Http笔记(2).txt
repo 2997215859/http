@@ -1,0 +1,27 @@
+学习资源：燕十八的http课程（公开形式的资源，请自行查找）  二三节
+
+我的笔记：
+
+新建一个http请求类,实现自定义接口Proto
+
+//http请求类接口
+interface Proto{
+	//连接url
+	function conn($url);
+	//发送GET请求
+	function get();
+	//发送POST请求
+	function post();
+	//关闭连接
+	function close();
+}
+class Http implemetnt Proto{
+	//连接url
+	function conn($url);
+	//发送GET请求
+	function get();
+	//发送POST请求
+	function post();
+	//关闭连接
+	function close();
+}

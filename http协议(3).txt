@@ -1,0 +1,11 @@
+学习资源：燕十八的http课程（公开形式的资源，请自行查找）  四五节节
+
+我的笔记：由于第四节没有找到合适的测试网站，因此主要记录为第五节的内容
+通过telnet，往留言板中post方式插入数据
+POST 【path】 HTTP/1.1
+Host:localhost
+Content-type:application/x-www-form-urlencoded
+Content-length:45
+
+主要是完成post函数的完善，添加主体信息，进行http_build_query转化，之后构造request，然后循环发送
+具体
